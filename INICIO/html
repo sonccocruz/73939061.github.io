@@ -2,30 +2,57 @@
     <meta charset="utf-8">
     <title>happypets</title>
     
-    <link rel="stylesheet" href="../INICIO/inicio.css">
+    <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
     
     <div id="container">
 
         <header>
-           <div class="ancho">
-               <div class="logo">
-               <p><a href="#">HAPPYPETS</a></p>
-               </div>
-               <nav>
-                   
-                <ul>
-                   <li ><a href="inicio.html">INICIO</a></li>
-                   <li><a href="../VENTAS/ventas.html">VENTAS</a></li>
-                   <li><a href="../TIENDA FISICA/tiendas.html">TIENDAS FISICAS</a></li>
-                   <li><a href="../SERVICIO/servicio.html">SERVICIOS</a></li>
-                   <li><a href="../CONTACTENOS/contactenos.html">CONTACTOS</a></li>
-                   <li ><a href="../PROMOCIONES/promociones.html">PROMOCIONES</a></li>
-                </ul>
-               </nav>
-           </div>
+           
+            <h1>HAPPYPETS</h1>
         </header>
+        <nav>
+            <ul>
+                <li>
+                    <button class="button">
+                        <a href="index.html">
+                            Inicio
+                        </a>
+                    </button>
+                   
+                </li>
+                <li>
+                    <button class="button">
+                        <a href="index.html">
+                            Ventas
+                        </a>
+                    </button>
+                    
+                </li>
+                <li>
+                    <button class="button">
+                    <a href="index.html">
+                        Locales
+                    </a>
+                </button>
+                </li>
+                <li>
+                    <button class="button">
+                    <a href="index.html">
+                        Servicios
+                    </a>
+                </button>
+                </li>
+                <li>
+                    <button class="button">
+                    <a href="index.html">
+                        Contactos
+                    </a>
+                </button>
+                </li>
+            </ul>
+        </nav>
         <div class="clearfix"></div>
         <section id="content">
             <p></p><h1><center>NUESTRAS MARCAS</center></h1><p></p>
@@ -89,3 +116,28 @@
 
 
 </body></html>
+
+
+
+<div class="logo"> 
+    <p><a href="">HAPPYPETS</a></p>
+
+
+    .logo{
+        width: 20%;
+        height: 70px;
+        background: red;
+        float:left;
+        padding-top: 10px;
+        box-sizing: border-box;
+        text-decoration: none;
+    }
+    
+    .logo p a{
+        color: #fff;
+        font-size: 20px;
+    }.ancho{
+        width: 100%;
+        height: 70px;
+        background: #6ec1e4;
+    
